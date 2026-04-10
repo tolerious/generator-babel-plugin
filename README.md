@@ -1,5 +1,4 @@
-# generator-babel-plugin [![Node.js Package](https://github.com/tolerious/generator-babel-plugin/actions/workflows/npm-publish.yml/badge.svg?branch=master)](https://github.com/tolerious/generator-babel-plugin/actions/workflows/npm-publish.yml)
-
+# generator-babel-plugin [![Node.js Package](https://github.com/tolerious/generator-babel-plugin/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/tolerious/generator-babel-plugin/actions/workflows/npm-publish.yml)
 使用Yeoman来创建babel plugin.
 代码fork自[generator-babel-plugin](https://github.com/thejameskyle/generator-babel-plugin)，
 原仓库经过测试，在本地无法运行了，故此fork了项目进行了修改。 
