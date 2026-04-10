@@ -1,29 +1,33 @@
-# generator-babel-plugin [![Build Status](https://secure.travis-ci.org/thejameskyle/generator-babel-plugin.png?branch=master)](https://travis-ci.org/thejameskyle/generator-babel-plugin)
+# generator-babel-plugin
 
-Babel Plugin generator for Yeoman.
+使用Yeoman来创建babel plugin.
+代码fork自[generator-babel-plugin](https://github.com/thejameskyle/generator-babel-plugin)，
+原仓库经过测试，在本地无法运行了，故此fork了项目进行了修改。
 
-## Usage
+## 用法
 
-**Install yeoman and the generator globally**
+**全局安装Yeoman**
 
 ```shell
 $ npm i -g yo
 $ npm i -g generator-babel-plugins
 ```
 
-**Run the generator**
+**运行generator**
 
 ```shell
 $ yo babel-plugins
 ```
 
-If you want to create additional fixtures in your tests:
+如果你想在测试中创建额外的fixtures
 
 ```shell
 $ yo babel-plugins:fixture name-of-fixture
 ```
 
-To understand babel plugin development in more detail, see the [babel plugin handbook](https://github.com/thejameskyle/babel-handbook/blob/master/translations/en/plugin-handbook.md)
+为了更好的理解Babel插件的开发，强烈建议阅读[babel plugin handbook](https://github.com/thejameskyle/babel-handbook/blob/master/translations/en/plugin-handbook.md)。
+
+同时我也提供了[中文翻译改进版](https://babel.frontend.fan/user-handbook)，针对原版中的排版问题以及过时的描述予以更正。
 
 ## License
 
