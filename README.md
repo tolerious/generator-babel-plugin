@@ -9,6 +9,8 @@
 
 ```shell
 $ npm i -g yo
+```
+```shell
 $ npm i -g generator-babel-plugins
 ```
 
