@@ -13,7 +13,10 @@ $ npm i -g yo
 ```shell
 $ npm i -g generator-babel-plugins
 ```
-
+**创建插件文件夹**
+```shell
+mkdir my-babel-plugin && cd my-babel-plugin
+```
 **运行generator**
 
 ```shell
