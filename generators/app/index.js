@@ -99,8 +99,8 @@ export default class extends Generator {
         clean: 'rm -rf lib',
         build: 'babel src -d lib',
         test: 'jest __tests__/index.js',
-        'test:watch': 'npm run test -- --watch',
-        prepublish: 'npm run clean && npm run build',
+        'test:watch': 'pnpm test -- --watch',
+        prepublish: 'pnpm clean && pnpm build',
       },
       keywords: this.props.keywords,
     };
@@ -152,8 +152,8 @@ export default class extends Generator {
     this.composeWith(fixturePath, { arguments: 'example' });
   }
 
-  install() {
-    this.pnpmInstall();
+  async install() {
+    this.npmInstall();
   }
 
   getAuthor() {
