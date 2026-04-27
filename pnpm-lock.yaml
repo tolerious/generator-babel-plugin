@@ -21,6 +21,9 @@ importers:
       prettier:
         specifier: ^3.8.2
         version: 3.8.2
+      yeoman-assert:
+        specifier: ^3.1.1
+        version: 3.1.1
       yeoman-test:
         specifier: ^11.3.1
         version: 11.3.1(@types/node@25.5.2)(@yeoman/types@1.10.3(@types/node@25.5.2)(mem-fs@4.1.4))(mem-fs@4.1.4)(yeoman-generator@8.1.2(@types/node@25.5.2)(@yeoman/types@1.10.3(@types/node@25.5.2)(mem-fs@4.1.4))(mem-fs@4.1.4))
@@ -1676,6 +1679,11 @@ packages:
   yargs@17.7.2:
     resolution: {integrity: sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==}
     engines: {node: '>=12'}
+
+  yeoman-assert@3.1.1:
+    resolution: {integrity: sha512-bCuLb/j/WzpvrJZCTdJJLFzm7KK8IYQJ3+dF9dYtNs2CUYyezFJDuULiZ2neM4eqjf45GN1KH/MzCTT3i90wUQ==}
+    engines: {node: '>=4'}
+    deprecated: 'This package is deprecated. See: https://github.com/yeoman/yeoman/issues/1779'
 
   yeoman-generator@8.1.2:
     resolution: {integrity: sha512-5e9jK2EPm6/c/zaYnuKnCLbRWfD9XwJYup1VzdJMgj010cgDn3YJWDfOIczabLfSoRSXRFxTDHfx1MEdIJEcGQ==}
@@ -3618,6 +3626,8 @@ snapshots:
       string-width: 4.2.3
       y18n: 5.0.8
       yargs-parser: 21.1.1
+
+  yeoman-assert@3.1.1: {}
 
   yeoman-generator@8.1.2(@types/node@25.5.2)(@yeoman/types@1.10.3(@types/node@25.5.2)(mem-fs@4.1.4))(mem-fs@4.1.4):
     dependencies:
