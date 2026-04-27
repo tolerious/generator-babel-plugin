@@ -153,7 +153,7 @@ export default class extends Generator {
   }
 
   install() {
-    // this.npmInstall();
+    this.pnpmInstall();
   }
 
   getAuthor() {

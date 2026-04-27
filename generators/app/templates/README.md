@@ -13,7 +13,7 @@
 **Out**
 
 ```js
-"use strict";
+'use strict';
 
 // output code
 ```
@@ -45,7 +45,7 @@ $ babel --plugins <%= name %> script.js
 ### Via Node API
 
 ```javascript
-require("@babel/core").transform("code", {
-  plugins: ["<%= name %>"]
+require('@babel/core').transform('code', {
+  plugins: ['<%= name %>'],
 });
 ```

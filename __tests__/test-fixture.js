@@ -6,7 +6,8 @@ const helpers = require('yeoman-test');
 
 describe('BabelPlugin:generators/fixture', () => {
   beforeAll((done) => {
-    helpers.run(path.join(__dirname, '../generators/fixture'))
+    helpers
+      .run(path.join(__dirname, '../generators/fixture'))
       .withArguments('an-example')
       .withOptions({ skipInstall: true, force: true })
       .on('end', done);
@@ -15,7 +16,7 @@ describe('BabelPlugin:generators/fixture', () => {
   it('creates files', () => {
     assert.file([
       '__tests__/fixtures/an-example/actual.js',
-      '__tests__/fixtures/an-example/expected.js'
+      '__tests__/fixtures/an-example/expected.js',
     ]);
   });
 });
