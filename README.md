@@ -1,4 +1,6 @@
-# generator-babel-plugin [![Node.js Package](https://github.com/tolerious/generator-babel-plugin/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/tolerious/generator-babel-plugin/actions/workflows/npm-publish.yml)
+# generator-babel-plugin
+
+[![Node.js Package](https://github.com/tolerious/generator-babel-plugin/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/tolerious/generator-babel-plugin/actions/workflows/npm-publish.yml) ![npm 总下载量](https://img.shields.io/npm/dt/generator-babel-plugins.svg)
 
 使用Yeoman来创建babel plugin.
 代码fork自[generator-babel-plugin](https://github.com/thejameskyle/generator-babel-plugin)，
@@ -9,11 +11,11 @@
 **全局安装Yeoman**
 
 ```shell
-$ npm i -g yo
+npm i -g yo
 ```
 
 ```shell
-$ npm i -g generator-babel-plugins
+npm i -g generator-babel-plugins
 ```
 
 **创建插件文件夹**
@@ -25,13 +27,13 @@ mkdir my-babel-plugin && cd my-babel-plugin
 **运行generator**
 
 ```shell
-$ yo babel-plugins
+yo babel-plugins
 ```
 
 如果你想在测试中创建额外的fixtures
 
 ```shell
-$ yo babel-plugins:fixture name-of-fixture
+yo babel-plugins:fixture name-of-fixture
 ```
 
 为了更好的理解Babel插件的开发，强烈建议阅读[babel plugin handbook](https://github.com/thejameskyle/babel-handbook/blob/master/translations/en/plugin-handbook.md)。
