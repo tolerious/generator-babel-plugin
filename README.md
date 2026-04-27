@@ -1,4 +1,6 @@
-# generator-babel-plugin [![Node.js Package](https://github.com/tolerious/generator-babel-plugin/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/tolerious/generator-babel-plugin/actions/workflows/npm-publish.yml)
+# generator-babel-plugin
+
+[![Node.js Package](https://github.com/tolerious/generator-babel-plugin/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/tolerious/generator-babel-plugin/actions/workflows/npm-publish.yml) ![npm 总下载量](https://img.shields.io/npm/dt/generator-babel-plugins.svg)
 
 使用Yeoman来创建babel plugin.
 代码fork自[generator-babel-plugin](https://github.com/thejameskyle/generator-babel-plugin)，
