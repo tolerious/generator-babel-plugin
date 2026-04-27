@@ -153,7 +153,7 @@ export default class extends Generator {
   }
 
   async install() {
-    await this.spawnCommand('pnpm', ['install']);
+    this.npmInstall();
   }
 
   getAuthor() {
