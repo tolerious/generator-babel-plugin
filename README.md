@@ -40,6 +40,16 @@ yo babel-plugins:fixture name-of-fixture
 
 同时我也提供了[中文翻译改进版](https://babel.frontend.fan/user-handbook)，针对原版中的排版问题以及过时的描述予以更正。
 
+> 为了测试插件，可以配合另外一个项目[simple-babel-project-template](https://github.com/tolerious/simple-babel-project-template)进行使用，创建好babel插件后，为了在本地进行效果测试，可以在新创建的插件项目中运行
+```
+npx link
+```
+然后在使用**simple-babel-project-template**的项目中运行
+```
+npm link your-babel-plugin
+```
+其中`your-babel-plugin`就是你创建插件的那个项目中`package.json`文件中`name`字段.
+
 ## License
 
 MIT
